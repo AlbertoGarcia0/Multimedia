@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Drawing;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
@@ -24,6 +25,8 @@ namespace VideoInteractivo
     public sealed partial class MainPage : Page
     {
         int contadorActo = 0;
+        SolidColorBrush redBrush = new SolidColorBrush(Windows.UI.Colors.Red);
+        SolidColorBrush blackBrush = new SolidColorBrush(Windows.UI.Colors.Black);
 
         public MainPage()
         {
@@ -77,6 +80,8 @@ namespace VideoInteractivo
         private void Boton_Dialog1_2_Click(object sender, RoutedEventArgs e)
         {
             Text_Dialog.Visibility = Visibility.Visible;
+            Boton_Dialog1_2.Background = redBrush;
+            Boton_Dialog1_2.Foreground = blackBrush;
         }
 
         /// <summary>

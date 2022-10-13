@@ -34,23 +34,11 @@
     <AppxPackagedFile Include="D:\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Videos\trailerFandF.mp4">
-      <PackagePath>Assets\Videos\trailerFandF.mp4</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Videos\trailerNovia.mp4">
-      <PackagePath>Assets\Videos\trailerNovia.mp4</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Videos\trailernovia_1.mp4">
       <PackagePath>Assets\Videos\trailernovia_1.mp4</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Videos\trailernovia_2.mp4">
       <PackagePath>Assets\Videos\trailernovia_2.mp4</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Videos\X2Download.app-Montañas video corto ⛰.mp4">
-      <PackagePath>Assets\Videos\X2Download.app-Montañas video corto ⛰.mp4</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Videos\X2Download.app-video playa corto mp4.mp4">
-      <PackagePath>Assets\Videos\X2Download.app-video playa corto mp4.mp4</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
