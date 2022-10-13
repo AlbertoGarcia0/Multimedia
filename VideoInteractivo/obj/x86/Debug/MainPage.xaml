@@ -1,0 +1,36 @@
+﻿<Page
+    x:Class="VideoInteractivo.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:VideoInteractivo"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid FocusVisualPrimaryBrush="White" Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="500*"/>
+            <RowDefinition Height="500*"/>
+        </Grid.RowDefinitions>
+        <Viewbox Grid.RowSpan="2" Stretch="Fill">
+            <Grid Height="1000" Width="1500">
+                <MediaElement x:ConnectionId='2' x:Name="video" Source="/Assets/Videos/trailernovia_1.mp4" AreTransportControlsEnabled="True"                              >
+                    <MediaElement.TransportControls>
+                        <MediaTransportControls/>
+                    </MediaElement.TransportControls>
+                </MediaElement>
+                <Button x:ConnectionId='3' x:Name="Boton_Dialog1_1" Content="Seguir" Height="95" Margin="286,0,0,0" Width="327"                               Visibility="Collapsed"/>
+                <Button x:ConnectionId='4' x:Name="Boton_Dialog1_2" Content="Parar" Height="95" Margin="849,0,0,0" Width="327"                               Visibility="Collapsed"/>
+                <TextBlock x:ConnectionId='5' x:Name="Text_Dialog" HorizontalAlignment="Left" Margin="626,547,0,0" Text="OPCION ELEGIDA INCORRECTA" TextWrapping="Wrap" VerticalAlignment="Top" FocusVisualPrimaryBrush="#FF3F3434" Foreground="Red" Height="52" Width="294" FontSize="18" Visibility="Collapsed">
+                    <TextBlock.FocusVisualSecondaryBrush>
+                        <ImageBrush/>
+                    </TextBlock.FocusVisualSecondaryBrush>
+                </TextBlock>
+
+            </Grid>
+        </Viewbox>
+
+    </Grid>
+</Page>
+

@@ -130,12 +130,8 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\Videos\trailerFandF.mp4" />
-    <Content Include="Assets\Videos\trailerNovia.mp4" />
     <Content Include="Assets\Videos\trailernovia_1.mp4" />
     <Content Include="Assets\Videos\trailernovia_2.mp4" />
-    <Content Include="Assets\Videos\X2Download.app-Montañas video corto ⛰.mp4" />
-    <Content Include="Assets\Videos\X2Download.app-video playa corto mp4.mp4" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />

@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\34627\\Source\\Repos\\AlbertoGarcia0\\Multimedia\\VideoInteractivo\\VideoInteractivo.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\34627\\Source\\Repos\\AlbertoGarcia0\\Multimedia\\VideoInteractivo\\VideoInteractivo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\34627\\Source\\Repos\\AlbertoGarcia0\\Multimedia\\VideoInteractivo\\VideoInteractivo.csproj",
+        "projectName": "VideoInteractivo",
+        "projectPath": "C:\\Users\\34627\\Source\\Repos\\AlbertoGarcia0\\Multimedia\\VideoInteractivo\\VideoInteractivo.csproj",
+        "packagesPath": "C:\\Users\\34627\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\34627\\Source\\Repos\\AlbertoGarcia0\\Multimedia\\VideoInteractivo\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\34627\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.17763"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.17763": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.17763": {
+          "dependencies": {
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.10, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
