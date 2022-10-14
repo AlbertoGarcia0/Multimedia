@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>517e494d-c9a3-4b6a-bef0-2282ef20ff35</PackageIdentityName>
     <PackageIdentityPublisher>CN=34627</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>D:\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\bin\x86\Debug\VideoInteractivo.exe">
+    <AppxPackagedFile Include="C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\bin\x86\Debug\VideoInteractivo.exe">
       <PackagePath>entrypoint\VideoInteractivo.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
@@ -34,58 +34,58 @@
     <AppxPackagedFile Include="D:\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Videos\trailernovia_1.mp4">
+    <AppxPackagedFile Include="C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Videos\trailernovia_1.mp4">
       <PackagePath>Assets\Videos\trailernovia_1.mp4</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Videos\trailernovia_2.mp4">
+    <AppxPackagedFile Include="C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Videos\trailernovia_2.mp4">
       <PackagePath>Assets\Videos\trailernovia_2.mp4</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\bin\x86\Debug\VideoInteractivo.xr.xml">
+    <AppxPackagedFile Include="C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\bin\x86\Debug\VideoInteractivo.xr.xml">
       <PackagePath>VideoInteractivo.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\bin\x86\Debug\Core\VideoInteractivo.exe">
+    <AppxPackagedFile Include="C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\bin\x86\Debug\Core\VideoInteractivo.exe">
       <PackagePath>VideoInteractivo.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

@@ -24,7 +24,9 @@ namespace VideoInteractivo
     /// </summary>
     public sealed partial class MainPage : Page
     {
-        int contadorActo = 0;
+        int fallos = 0;
+        int aciertos = 0;
+        int contadorActo = 1;
         SolidColorBrush redBrush = new SolidColorBrush(Windows.UI.Colors.Red);
         SolidColorBrush blackBrush = new SolidColorBrush(Windows.UI.Colors.Black);
 
@@ -40,14 +42,13 @@ namespace VideoInteractivo
         /// </summary>
         private void video_MediaEnded(object sender, RoutedEventArgs e)
         {
-            contadorActo++;
             switch (contadorActo)
             {
                 case 1:
                     tarea1();
                     break;
                 case 2:
-                    // code block
+                    tarea2();
                     break;
                 default:
                     // code block
@@ -66,15 +67,19 @@ namespace VideoInteractivo
 
         private void Boton_Dialog1_1_Click(object sender, RoutedEventArgs e)
         {
+            contadorActo++;
             video.Play();
-            Boton_Dialog1_1.Visibility = Visibility.Collapsed;
-            Boton_Dialog1_2.Visibility = Visibility.Collapsed;
-            Text_Dialog.Visibility = Visibility.Collapsed;
             string pathAux;
             string path = System.AppDomain.CurrentDomain.BaseDirectory.ToString();
             path = path.Replace("\\bin\\Debug\\", "");
             pathAux = path + "/Assets/Videos/trailernovia_2.mp4";
             video.Source = new System.Uri(pathAux.ToString());
+
+            Boton_Dialog1_1.Visibility = Visibility.Collapsed;
+            Boton_Dialog1_2.Visibility = Visibility.Collapsed;
+            Text_Dialog.Visibility = Visibility.Collapsed;
+            
+
         }
 
         private void Boton_Dialog1_2_Click(object sender, RoutedEventArgs e)
@@ -89,28 +94,8 @@ namespace VideoInteractivo
         /// </summary>
         public void tarea2()
         {
-            Boton_Dialog1_1.Visibility = Visibility.Visible;
-            Boton_Dialog1_2.Visibility = Visibility.Visible;
+            boton_hola.Visibility = Visibility.Visible;
         }
 
-        /*
-private void Boton_Dialog1_1_Click(object sender, RoutedEventArgs e)
-{
-   video.Play();
-   Boton_Dialog1_1.Visibility = Visibility.Collapsed;
-   Boton_Dialog1_2.Visibility = Visibility.Collapsed;
-   Text_Dialog.Visibility = Visibility.Collapsed;
-   string pathAux;
-   string path = System.AppDomain.CurrentDomain.BaseDirectory.ToString();
-   path = path.Replace("\\bin\\Debug\\", "");
-   pathAux = path + "/Assets/Videos/trailernovia_2.mp4";
-   video.Source = new System.Uri(pathAux.ToString());
-}
-
-private void Boton_Dialog1_2_Click(object sender, RoutedEventArgs e)
-{
-   Text_Dialog.Visibility = Visibility.Visible;
-}
-*/
     }
 }

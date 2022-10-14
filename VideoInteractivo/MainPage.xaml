@@ -27,6 +27,7 @@
                         <ImageBrush/>
                     </TextBlock.FocusVisualSecondaryBrush>
                 </TextBlock>
+                <Button x:Name="boton_hola" Content="Hola" Height="69" Width="125" HorizontalAlignment="Center" Visibility="Collapsed"/>
 
             </Grid>
         </Viewbox>
