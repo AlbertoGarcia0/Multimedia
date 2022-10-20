@@ -26,7 +26,7 @@ namespace VideoInteractivo
     {
         int fallos = 0;
         int aciertos = 0;
-        int contadorActo = 1;
+        int acto = 1;
         SolidColorBrush redBrush = new SolidColorBrush(Windows.UI.Colors.Red);
         SolidColorBrush blackBrush = new SolidColorBrush(Windows.UI.Colors.Black);
 
@@ -37,12 +37,13 @@ namespace VideoInteractivo
             //video.RealTimePlayback
         }
 
+        /////////////////////////////////////////////////////////////////////////////////////////    METODO PRINCIPAL
         /// <summary>
         /// Metodo principal para la selección de tarea dependiendo en el acto que vaya el video
         /// </summary>
         private void video_MediaEnded(object sender, RoutedEventArgs e)
         {
-            switch (contadorActo)
+            switch (acto)
             {
                 case 1:
                     tarea1();
@@ -50,12 +51,16 @@ namespace VideoInteractivo
                 case 2:
                     tarea2();
                     break;
+                case 100:
+                    Boton_Reintentar1.Visibility = Visibility.Visible;
+                    break;
                 default:
                     // code block
                     break;
             }
         }
 
+        /////////////////////////////////////////////////////////////////////////////////////////    TAREA 1
         /// <summary>
         /// Metodos relacionados con el acto 1
         /// </summary>
@@ -67,34 +72,76 @@ namespace VideoInteractivo
 
         private void Boton_Dialog1_1_Click(object sender, RoutedEventArgs e)
         {
-            contadorActo++;
+            aciertos++;
+            acto = 2;
             video.Play();
-            string pathAux;
-            string path = System.AppDomain.CurrentDomain.BaseDirectory.ToString();
-            path = path.Replace("\\bin\\Debug\\", "");
-            pathAux = path + "/Assets/Videos/trailernovia_2.mp4";
-            video.Source = new System.Uri(pathAux.ToString());
-
+            selector_de_video(1);
             Boton_Dialog1_1.Visibility = Visibility.Collapsed;
             Boton_Dialog1_2.Visibility = Visibility.Collapsed;
             Text_Dialog.Visibility = Visibility.Collapsed;
-            
-
         }
 
         private void Boton_Dialog1_2_Click(object sender, RoutedEventArgs e)
         {
-            Text_Dialog.Visibility = Visibility.Visible;
-            Boton_Dialog1_2.Background = redBrush;
-            Boton_Dialog1_2.Foreground = blackBrush;
+            fallos++;
+            acto = 100;
+            video.Play();
+            selector_de_video(2);
+            Boton_Dialog1_1.Visibility = Visibility.Collapsed;
+            Boton_Dialog1_2.Visibility = Visibility.Collapsed;
+            Text_Dialog.Visibility = Visibility.Collapsed;
         }
 
+        private void Boton_Reintentar1_Click(object sender, RoutedEventArgs e)
+        {
+            acto = 1;
+            Boton_Reintentar1.Visibility = Visibility.Collapsed;
+            video.Play();
+            selector_de_video(0);
+        }
+
+
+        /////////////////////////////////////////////////////////////////////////////////////////    TAREA 2
         /// <summary>
         /// Metodos relacionados con el acto 2
         /// </summary>
         public void tarea2()
         {
             boton_hola.Visibility = Visibility.Visible;
+        }
+
+
+
+
+        /////////////////////////////////////////////////////////////////////////////////////////    METODOS AUXILIARES
+        /// <summary>
+        /// Metodo en el cual ira cambiando el video del reproductor multimedia
+        /// </summary>
+        /// <param name="num_video"></param>
+        public void selector_de_video(int num_video)
+        {
+            string pathAux = "";
+            string path = System.AppDomain.CurrentDomain.BaseDirectory.ToString();
+            path = path.Replace("\\bin\\Debug\\", "");
+            
+           
+            switch (num_video)
+            {
+                case 0:
+                    pathAux = path + "/Assets/Videos/minecraft_1.mp4";
+                    break;
+                case 1:
+                    pathAux = path + "/Assets/Videos/minecraft_2vivo.mp4";
+                    break;
+                case 2:
+                    pathAux = path + "/Assets/Videos/minecraft_2muerte.mp4";
+                    break;
+                default:
+                    // code block
+                    break;
+            }
+
+            video.Source = new System.Uri(pathAux.ToString());
         }
 
     }

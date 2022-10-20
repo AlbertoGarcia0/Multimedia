@@ -7,6 +7,11 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Page.Resources>
+        <ImageBrush x:Key="ButtonBackgroundMinecraft" ImageSource="/Assets/Videos/boton.jpg"/>
+        <SolidColorBrush x:Key="ButtonBorderMinecraft" Color="#FFA59090"/>
+        <FontFamily x:Key="ButtonFontMinecraft">Sitka Display Semibold</FontFamily>
+    </Page.Resources>
 
     <Grid FocusVisualPrimaryBrush="White" Background="White">
         <Grid.RowDefinitions>
@@ -15,19 +20,21 @@
         </Grid.RowDefinitions>
         <Viewbox Grid.RowSpan="2" Stretch="Fill">
             <Grid Height="1000" Width="1500">
-                <MediaElement x:ConnectionId='2' x:Name="video" Source="/Assets/Videos/trailernovia_1.mp4" AreTransportControlsEnabled="True"                              >
+                <MediaElement x:ConnectionId='2' x:Name="video" Source="/Assets/Videos/minecraft_1.mp4" AreTransportControlsEnabled="True"                              >
                     <MediaElement.TransportControls>
                         <MediaTransportControls/>
                     </MediaElement.TransportControls>
                 </MediaElement>
-                <Button x:ConnectionId='3' x:Name="Boton_Dialog1_1" Content="Seguir" Height="95" Margin="286,0,0,0" Width="327"                               Visibility="Collapsed"/>
-                <Button x:ConnectionId='4' x:Name="Boton_Dialog1_2" Content="Parar" Height="95" Margin="849,0,0,0" Width="327"                               Visibility="Collapsed"/>
-                <TextBlock x:ConnectionId='5' x:Name="Text_Dialog" HorizontalAlignment="Left" Margin="626,547,0,0" Text="OPCION ELEGIDA INCORRECTA" TextWrapping="Wrap" VerticalAlignment="Top" FocusVisualPrimaryBrush="#FF3F3434" Foreground="Red" Height="52" Width="294" FontSize="18" Visibility="Collapsed">
+                <Button x:ConnectionId='3' Background="{StaticResource ButtonBackgroundMinecraft}" x:Name="Boton_Dialog1_1" Content="Esperar a que se haga de dia" Height="95" Margin="286,0,0,0" Width="327"                               Visibility="Collapsed" FocusVisualSecondaryBrush="{x:Null}" Foreground="White" FocusVisualPrimaryBrush="{x:Null}" FontFamily="{StaticResource ButtonFontMinecraft}" FontSize="18" BorderBrush="{StaticResource ButtonBorderMinecraft}">
+                </Button>
+                <Button x:ConnectionId='4' x:Name="Boton_Dialog1_2" Content="Ir a explorar" Height="95" Margin="849,0,0,0" Width="327"                               Visibility="Collapsed" Background="{StaticResource ButtonBackgroundMinecraft}" BorderBrush="{StaticResource ButtonBorderMinecraft}" FontFamily="{StaticResource ButtonFontMinecraft}" FontSize="18"/>
+                <Button x:ConnectionId='5' x:Name="Boton_Reintentar1" Content="Reintentar" Margin="0,528,0,0" VerticalAlignment="Top" Visibility="Collapsed"                                 Background="{StaticResource ButtonBackgroundMinecraft}" BorderBrush="{StaticResource ButtonBorderMinecraft}" FontFamily="{StaticResource ButtonFontMinecraft}" FontSize="18" HorizontalAlignment="Center" Height="134" Width="616"/>
+                <TextBlock x:ConnectionId='6' x:Name="Text_Dialog" HorizontalAlignment="Left" Margin="626,547,0,0" Text="OPCION ELEGIDA INCORRECTA" TextWrapping="Wrap" VerticalAlignment="Top" FocusVisualPrimaryBrush="#FF3F3434" Foreground="Red" Height="52" Width="294" FontSize="18" Visibility="Collapsed">
                     <TextBlock.FocusVisualSecondaryBrush>
                         <ImageBrush/>
                     </TextBlock.FocusVisualSecondaryBrush>
                 </TextBlock>
-                <Button x:ConnectionId='6' x:Name="boton_hola" Content="Hola" Height="69" Width="125" HorizontalAlignment="Center" Visibility="Collapsed"/>
+                <Button x:ConnectionId='7' x:Name="boton_hola" Content="Hola" Height="69" Width="125" HorizontalAlignment="Center" Visibility="Collapsed"/>
 
             </Grid>
         </Viewbox>

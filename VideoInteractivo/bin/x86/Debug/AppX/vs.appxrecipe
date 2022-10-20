@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>517e494d-c9a3-4b6a-bef0-2282ef20ff35</PackageIdentityName>
     <PackageIdentityPublisher>CN=34627</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>D:\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>B93F6F986E3720653F83825F7D42B47A844B456B02FBFB0DFC185353DED1999F</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>1D8D98E811C9FFC5BC8F1AB1ED0BF3B1A2F394FB6DD50A75DB922281C4A0697E</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>517e494d-c9a3-4b6a-bef0-2282ef20ff35_1.0.0.0_x86__05xjkgehvgnp4</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>517e494d-c9a3-4b6a-bef0-2282ef20ff35_05xjkgehvgnp4!App</RegisteredUserModeAppID>
     <RegisteredPackageID>517e494d-c9a3-4b6a-bef0-2282ef20ff35</RegisteredPackageID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-10-14T10:04:33.215</Modified>
+      <Modified>2022-10-20T14:49:33.204</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\bin\x86\Debug\VideoInteractivo.exe">
+    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\bin\x86\Debug\VideoInteractivo.exe">
       <PackagePath>entrypoint\VideoInteractivo.exe</PackagePath>
-      <Modified>2022-10-14T10:04:32.763</Modified>
+      <Modified>2022-10-20T14:49:32.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -46,75 +46,115 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T17:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Videos\trailernovia_1.mp4">
+    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Videos\boton.jpg">
+      <PackagePath>Assets\Videos\boton.jpg</PackagePath>
+      <Modified>2022-10-20T14:37:36.200</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Videos\minecraft_1.mp4">
+      <PackagePath>Assets\Videos\minecraft_1.mp4</PackagePath>
+      <Modified>2022-10-20T14:01:51.062</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Videos\minecraft_2muerte.mp4">
+      <PackagePath>Assets\Videos\minecraft_2muerte.mp4</PackagePath>
+      <Modified>2022-10-20T14:01:51.068</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Videos\minecraft_2vivo.mp4">
+      <PackagePath>Assets\Videos\minecraft_2vivo.mp4</PackagePath>
+      <Modified>2022-10-20T14:01:51.083</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Videos\minecraft_3.mp4">
+      <PackagePath>Assets\Videos\minecraft_3.mp4</PackagePath>
+      <Modified>2022-10-20T14:01:51.088</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Videos\minecraft_4.mp4">
+      <PackagePath>Assets\Videos\minecraft_4.mp4</PackagePath>
+      <Modified>2022-10-20T14:01:51.092</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Videos\minecraft_5.mp4">
+      <PackagePath>Assets\Videos\minecraft_5.mp4</PackagePath>
+      <Modified>2022-10-20T14:01:51.010</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Videos\minecraft_6muerteA.mp4">
+      <PackagePath>Assets\Videos\minecraft_6muerteA.mp4</PackagePath>
+      <Modified>2022-10-20T14:01:51.028</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Videos\minecraft_6muerteB.mp4">
+      <PackagePath>Assets\Videos\minecraft_6muerteB.mp4</PackagePath>
+      <Modified>2022-10-20T14:01:51.041</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Videos\minecraft_6vivo.mp4">
+      <PackagePath>Assets\Videos\minecraft_6vivo.mp4</PackagePath>
+      <Modified>2022-10-20T14:01:51.053</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Videos\trailernovia_1.mp4">
       <PackagePath>Assets\Videos\trailernovia_1.mp4</PackagePath>
       <Modified>2022-10-13T14:07:12.580</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Videos\trailernovia_2.mp4">
+    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Videos\trailernovia_2.mp4">
       <PackagePath>Assets\Videos\trailernovia_2.mp4</PackagePath>
       <Modified>2022-10-13T14:07:12.586</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2022-10-13T14:07:12.590</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2022-10-13T14:07:12.471</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-10-13T14:07:12.471</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-10-13T14:07:12.472</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-10-13T14:07:12.472</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-10-13T14:07:12.473</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-10-13T14:07:12.473</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-10-13T14:07:12.587</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\bin\x86\Debug\VideoInteractivo.xr.xml">
+    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\bin\x86\Debug\VideoInteractivo.xr.xml">
       <PackagePath>VideoInteractivo.xr.xml</PackagePath>
-      <Modified>2022-10-14T10:04:01.778</Modified>
+      <Modified>2022-10-20T14:45:24.329</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-10-14T10:04:32.707</Modified>
+      <Modified>2022-10-20T14:45:24.352</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-10-14T10:04:32.707</Modified>
+      <Modified>2022-10-20T14:49:32.489</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2019-03-18T16:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-10-13T15:09:08.003</Modified>
+      <Modified>2022-10-20T14:45:24.861</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\bin\x86\Debug\Core\VideoInteractivo.exe">
+    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\bin\x86\Debug\Core\VideoInteractivo.exe">
       <PackagePath>VideoInteractivo.exe</PackagePath>
-      <Modified>2022-10-14T10:04:33.211</Modified>
+      <Modified>2022-10-20T14:49:33.199</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

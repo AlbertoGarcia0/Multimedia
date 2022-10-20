@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PrtG02n6lWltxGiJR4Q9ag1GrHhcghy4S1bhlOHl/Qxyf8D+tdTrE4kqM3h64XlvzSC/ss4b4iHEh6SpJP2fDg==",
+  "dgSpecHash": "4pA7cYFpYVHpk3h/sAqml9/yG8ah7u9omX5k7U4tpXq6fy8HW0Ub6hF7mywNqTrCh6ROAOU0H9O7nmsKUGY9oA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\34627\\source\\repos\\AlbertoGarcia0\\Multimedia\\VideoInteractivo\\VideoInteractivo.csproj",
+  "projectFilePath": "C:\\Users\\34627\\Source\\Repos\\AlbertoGarcia0\\Multimedia\\VideoInteractivo\\VideoInteractivo.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.8-rel-28605-00\\microsoft.net.native.compiler.2.2.8-rel-28605-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.10\\microsoft.net.uwpcoreruntimesdk.2.2.10.nupkg.sha512",

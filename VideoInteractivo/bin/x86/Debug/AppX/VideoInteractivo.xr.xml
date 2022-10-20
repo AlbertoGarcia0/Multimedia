@@ -4,9 +4,17 @@
     <RootType FullName="Windows.UI.Xaml.Application" />
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="Background" />
+      <RootProperty Name="Resources" />
       <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
+      <RootProperty Name="ImageSource" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.SolidColorBrush">
+      <RootProperty Name="Color" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.FontFamily" />
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="FocusVisualPrimaryBrush" />
       <RootProperty Name="Background" />
@@ -31,11 +39,19 @@
       <RootEvent Name="MediaEnded" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="Background" />
       <RootProperty Name="Content" />
       <RootProperty Name="Height" />
       <RootProperty Name="Margin" />
       <RootProperty Name="Width" />
       <RootProperty Name="Visibility" />
+      <RootProperty Name="FocusVisualSecondaryBrush" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="FocusVisualPrimaryBrush" />
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="HorizontalAlignment" />
       <RootEvent Name="Click" />
     </RootType>
@@ -53,7 +69,8 @@
       <RootProperty Name="Visibility" />
       <RootProperty Name="FocusVisualSecondaryBrush" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Media.ImageBrush" />
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.NullExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.MediaTransportControls" />
     <RootType FullName="VideoInteractivo.MainPage" />
   </Roots.RootTypes>

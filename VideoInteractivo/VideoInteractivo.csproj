@@ -130,6 +130,16 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Videos\boton.jpg" />
+    <Content Include="Assets\Videos\minecraft_1.mp4" />
+    <Content Include="Assets\Videos\minecraft_2muerte.mp4" />
+    <Content Include="Assets\Videos\minecraft_2vivo.mp4" />
+    <Content Include="Assets\Videos\minecraft_3.mp4" />
+    <Content Include="Assets\Videos\minecraft_4.mp4" />
+    <Content Include="Assets\Videos\minecraft_5.mp4" />
+    <Content Include="Assets\Videos\minecraft_6muerteA.mp4" />
+    <Content Include="Assets\Videos\minecraft_6muerteB.mp4" />
+    <Content Include="Assets\Videos\minecraft_6vivo.mp4" />
     <Content Include="Assets\Videos\trailernovia_1.mp4" />
     <Content Include="Assets\Videos\trailernovia_2.mp4" />
     <Content Include="Properties\Default.rd.xml" />
