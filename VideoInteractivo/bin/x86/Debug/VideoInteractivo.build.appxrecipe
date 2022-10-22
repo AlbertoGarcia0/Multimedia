@@ -37,6 +37,9 @@
     <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Videos\boton.jpg">
       <PackagePath>Assets\Videos\boton.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Videos\Witch.jpg">
+      <PackagePath>Assets\Videos\Witch.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\34627\Source\Repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Videos\minecraft_1.mp4">
       <PackagePath>Assets\Videos\minecraft_1.mp4</PackagePath>
     </AppxPackagedFile>

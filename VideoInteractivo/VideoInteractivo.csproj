@@ -142,6 +142,7 @@
     <Content Include="Assets\Videos\minecraft_6vivo.mp4" />
     <Content Include="Assets\Videos\trailernovia_1.mp4" />
     <Content Include="Assets\Videos\trailernovia_2.mp4" />
+    <Content Include="Assets\Videos\Witch.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />

@@ -25,19 +25,44 @@
                         <MediaTransportControls/>
                     </MediaElement.TransportControls>
                 </MediaElement>
-                <Button x:ConnectionId='3' Background="{StaticResource ButtonBackgroundMinecraft}" x:Name="Boton_Dialog1_1" Content="Esperar a que se haga de dia" Height="95" Margin="286,0,0,0" Width="327"                               Visibility="Collapsed" FocusVisualSecondaryBrush="{x:Null}" Foreground="White" FocusVisualPrimaryBrush="{x:Null}" FontFamily="{StaticResource ButtonFontMinecraft}" FontSize="18" BorderBrush="{StaticResource ButtonBorderMinecraft}">
-                </Button>
-                <Button x:ConnectionId='4' x:Name="Boton_Dialog1_2" Content="Ir a explorar" Height="95" Margin="849,0,0,0" Width="327"                               Visibility="Collapsed" Background="{StaticResource ButtonBackgroundMinecraft}" BorderBrush="{StaticResource ButtonBorderMinecraft}" FontFamily="{StaticResource ButtonFontMinecraft}" FontSize="18"/>
-                <Button x:ConnectionId='5' x:Name="Boton_Reintentar1" Content="Reintentar" Margin="0,528,0,0" VerticalAlignment="Top" Visibility="Collapsed"                                 Background="{StaticResource ButtonBackgroundMinecraft}" BorderBrush="{StaticResource ButtonBorderMinecraft}" FontFamily="{StaticResource ButtonFontMinecraft}" FontSize="18" HorizontalAlignment="Center" Height="134" Width="616"/>
-                <TextBlock x:ConnectionId='6' x:Name="Text_Dialog" HorizontalAlignment="Left" Margin="626,547,0,0" Text="OPCION ELEGIDA INCORRECTA" TextWrapping="Wrap" VerticalAlignment="Top" FocusVisualPrimaryBrush="#FF3F3434" Foreground="Red" Height="52" Width="294" FontSize="18" Visibility="Collapsed">
+                <Rectangle x:ConnectionId='3' x:Name="Rectangulo_Dialog" HorizontalAlignment="Center" Height="435" Stroke="Black" VerticalAlignment="Center" Width="618" FocusVisualPrimaryBrush="#FFE6DEDE" Visibility="Collapsed">
+                    <Rectangle.Fill>
+                        <AcrylicBrush TintColor="#CC6A5F5F" TintOpacity="0.3"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+                <Rectangle x:ConnectionId='4' x:Name="Rectangulo_Link" HorizontalAlignment="Center" Height="70" Stroke="Black" VerticalAlignment="Top" Width="927" FocusVisualPrimaryBrush="#FFE6DEDE" Visibility="Collapsed" Margin="0,41,0,0">
+                    <Rectangle.Fill>
+                        <AcrylicBrush TintColor="#CC6A5F5F" TintOpacity="0.3"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+                <TextBlock x:ConnectionId='5' x:Name="Text_Dialog" HorizontalAlignment="Left" Margin="287,41,0,0" Text="Hay casi 150 tipos de pociones diferentes en minecraft" TextWrapping="Wrap" VerticalAlignment="Top" FocusVisualPrimaryBrush="#FF3F3434" Foreground="White" Height="67" Width="921" FontSize="20" Visibility="Collapsed" TextAlignment="Center">
                     <TextBlock.FocusVisualSecondaryBrush>
                         <ImageBrush/>
                     </TextBlock.FocusVisualSecondaryBrush>
                 </TextBlock>
-                <Button x:ConnectionId='7' x:Name="boton_hola" Content="Hola" Height="69" Width="125" HorizontalAlignment="Center" Visibility="Collapsed"/>
+                <Button x:ConnectionId='6' x:Name="botonEnlace" Content="Ver mas información" Height="39" Margin="0,68,0,0" VerticalAlignment="Top" Width="168" HorizontalAlignment="Center"                           Visibility="Collapsed">
+                    <Button.Background>
+                        <AcrylicBrush TintColor="#CC766565" TintOpacity="0.3"/>
+                    </Button.Background>
+                </Button>
+                <Button x:ConnectionId='7' Background="{StaticResource ButtonBackgroundMinecraft}" x:Name="Boton_Dialog1_1" Content="Esperar a que se haga de dia" Height="95" Margin="0,357,0,0" Width="327"                               Visibility="Collapsed" FocusVisualSecondaryBrush="{x:Null}" Foreground="White" FocusVisualPrimaryBrush="{x:Null}" FontFamily="{StaticResource ButtonFontMinecraft}" FontSize="18" BorderBrush="{StaticResource ButtonBorderMinecraft}" HorizontalAlignment="Center" VerticalAlignment="Top">
+                </Button>
+                <Button x:ConnectionId='8' x:Name="Boton_Dialog1_2" Content="Ir a explorar" Height="95" Margin="0,559,0,0" Width="327"                               Visibility="Collapsed" Background="{StaticResource ButtonBackgroundMinecraft}" BorderBrush="{StaticResource ButtonBorderMinecraft}" FontFamily="{StaticResource ButtonFontMinecraft}" FontSize="18" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                <Button x:ConnectionId='9' x:Name="Boton_Reintentar1" Content="Reintentar" Margin="0,528,0,0" VerticalAlignment="Top" Visibility="Collapsed"                                 Background="{StaticResource ButtonBackgroundMinecraft}" BorderBrush="{StaticResource ButtonBorderMinecraft}" FontFamily="{StaticResource ButtonFontMinecraft}" FontSize="18" HorizontalAlignment="Center" Height="134" Width="616"/>
+                <Image x:ConnectionId='10' x:Name="Imagen_Dialog3" HorizontalAlignment="Left" Height="314" Margin="898,0,0,0" VerticalAlignment="Center" Width="135" Source="/Assets/Videos/Witch.jpg" Visibility="Collapsed"/>
+                <TextBlock x:ConnectionId='11' x:Name="Text_Dialog3" HorizontalAlignment="Left" Margin="505,416,0,0" Text="¿Cual es el nombre de este mob?" TextWrapping="Wrap" VerticalAlignment="Top" Height="79" Width="294" FontSize="20" Visibility="Collapsed"/>
+                <TextBox x:ConnectionId='12' x:Name="TextBox_Dialog3" HorizontalAlignment="Left" Height="50" Margin="505,0,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Center" Width="292" Visibility="Collapsed" FontSize="20"/>
+                <Button x:ConnectionId='13' x:Name="Boton_Dialog3" Content="Comprobar" Margin="580,558,0,0" VerticalAlignment="Top" Height="44" Width="143"                             FontFamily="{StaticResource ButtonFontMinecraft}" FontSize="16" Visibility="Collapsed">
+                    <Button.FocusVisualPrimaryBrush>
+                        <ImageBrush ImageSource="/Assets/Videos/boton.jpg"/>
+                    </Button.FocusVisualPrimaryBrush>
+                </Button>
+                <TextBlock x:ConnectionId='14' x:Name="error_Dialog3" HorizontalAlignment="Left" Height="56" Margin="624,321,0,0" Text="Respuesta incorrecta: _ _ _ j _" TextWrapping="Wrap" VerticalAlignment="Top" Width="279" FontSize="20" Foreground="#FFE23A3A" Visibility="Collapsed"/>
 
             </Grid>
         </Viewbox>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="-530,481,0,0" Grid.RowSpan="2" Stroke="Black" VerticalAlignment="Top" Width="100"/>
+        <TextBox HorizontalAlignment="Left" Margin="-247,302,0,0" Grid.Row="1" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top"/>
 
     </Grid>
 </Page>
