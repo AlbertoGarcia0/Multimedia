@@ -56,6 +56,18 @@ namespace VideoInteractivo
                 case 3:
                     tarea3();
                     break;
+                case 4:
+                    tarea4();
+                    break;
+                case 5:
+                    tarea5();
+                    break;
+                case 500:
+                    Boton_Reintentar6.Visibility = Visibility.Visible;
+                    break;
+                case 6:
+                    tarea6();
+                    break;
                 default:
                     // code block
                     break;
@@ -75,13 +87,12 @@ namespace VideoInteractivo
 
         private void Boton_Dialog1_1_Click(object sender, RoutedEventArgs e)
         {
-            aciertos++;
+           aciertos++;
             acto = 2;
             video.Play();
             selector_de_video(1);
             Boton_Dialog1_1.Visibility = Visibility.Collapsed;
             Boton_Dialog1_2.Visibility = Visibility.Collapsed;
-            Text_Dialog.Visibility = Visibility.Collapsed;
             Rectangulo_Dialog.Visibility = Visibility.Collapsed;
 
         }
@@ -94,7 +105,7 @@ namespace VideoInteractivo
             selector_de_video(2);
             Boton_Dialog1_1.Visibility = Visibility.Collapsed;
             Boton_Dialog1_2.Visibility = Visibility.Collapsed;
-            Text_Dialog.Visibility = Visibility.Collapsed;
+            Boton_Dialog1_2.Background = redBrush;
             Rectangulo_Dialog.Visibility = Visibility.Collapsed;
         }
 
@@ -135,7 +146,7 @@ namespace VideoInteractivo
                 Text_Dialog3.Visibility = Visibility.Collapsed;
                 Boton_Dialog3.Visibility = Visibility.Collapsed;
                 botonEnlace.Visibility = Visibility.Visible;
-                Text_Dialog.Visibility = Visibility.Visible;
+                Text_Link.Visibility = Visibility.Visible;
                 Rectangulo_Link.Visibility = Visibility.Visible;
             }
             else
@@ -172,9 +183,146 @@ namespace VideoInteractivo
         public void tarea3()
         {
             botonEnlace.Visibility = Visibility.Collapsed;
-            Text_Dialog.Visibility = Visibility.Collapsed;
+            Text_Link.Visibility = Visibility.Collapsed;
             Rectangulo_Link.Visibility = Visibility.Collapsed;
+            Rectangulo_Dialog.Visibility = Visibility.Visible;
+            CheckBox1_Dialog4.Visibility = Visibility.Visible;
+            CheckBox2_Dialog4.Visibility = Visibility.Visible;
+            CheckBox3_Dialog4.Visibility = Visibility.Visible;
+            CheckBox4_Dialog4.Visibility = Visibility.Visible;
+            Boton_Dialog4.Visibility = Visibility.Visible;
+            TextBlock_Dialog4.Visibility = Visibility.Visible;
+
         }
+
+        private void Boton_Dialog4_Click(object sender, RoutedEventArgs e)
+        {
+            if (CheckBox1_Dialog4.IsChecked==true && CheckBox3_Dialog4.IsChecked == true && CheckBox2_Dialog4.IsChecked == false && CheckBox4_Dialog4.IsChecked == false)
+            {
+                aciertos++;
+                acto = 4;
+                video.Play();
+                selector_de_video(4);
+                Rectangulo_Dialog.Visibility = Visibility.Collapsed;
+                CheckBox1_Dialog4.Visibility = Visibility.Collapsed;
+                CheckBox2_Dialog4.Visibility = Visibility.Collapsed;
+                CheckBox3_Dialog4.Visibility = Visibility.Collapsed;
+                CheckBox4_Dialog4.Visibility = Visibility.Collapsed;
+                Boton_Dialog4.Visibility = Visibility.Collapsed;
+                TextBlock_Dialog4.Visibility = Visibility.Collapsed;
+                error_Dialog4.Visibility = Visibility.Collapsed;
+            }
+            else
+            {
+                fallos++;
+                error_Dialog4.Visibility = Visibility.Visible;
+            }
+
+        }
+
+        /////////////////////////////////////////////////////////////////////////////////////////    TAREA 4
+        /// <summary>
+        /// Metodos relacionados con el acto 4
+        /// </summary>
+        public void tarea4()
+        {
+            Rectangulo_Dialog.Visibility = Visibility.Visible;
+            Text_Dialog5.Visibility = Visibility.Visible;
+            Boton_Dialog5_1.Visibility = Visibility.Visible;
+            Boton_Dialog5_2.Visibility = Visibility.Visible;
+            Boton_Dialog5_3.Visibility = Visibility.Visible;
+            Boton_Dialog5_4.Visibility = Visibility.Visible;
+        }
+
+
+        private void Boton_Dialog5_1_Click(object sender, RoutedEventArgs e)
+        {
+            aciertos++;
+            acto = 5;
+            video.Play();
+            selector_de_video(5);
+            Rectangulo_Dialog.Visibility = Visibility.Collapsed;
+            Text_Dialog5.Visibility = Visibility.Collapsed;
+            Boton_Dialog5_1.Visibility = Visibility.Collapsed;
+            Boton_Dialog5_2.Visibility = Visibility.Collapsed;
+            Boton_Dialog5_3.Visibility = Visibility.Collapsed;
+            Boton_Dialog5_4.Visibility = Visibility.Collapsed;
+        }
+
+        private void Boton_Dialog5_2_Click(object sender, RoutedEventArgs e)
+        {
+            fallos++;
+            Boton_Dialog5_2.Background = redBrush;
+        }
+
+        private void Boton_Dialog5_3_Click(object sender, RoutedEventArgs e)
+        {
+            fallos++;
+            Boton_Dialog5_3.Background = redBrush;
+        }
+
+        private void Boton_Dialog5_4_Click(object sender, RoutedEventArgs e)
+        {
+            fallos++;
+            Boton_Dialog5_4.Background = redBrush;
+        }
+
+
+        /////////////////////////////////////////////////////////////////////////////////////////    TAREA 5
+        /// <summary>
+        /// Metodos relacionados con el acto 5
+        /// </summary>
+        public void tarea5()
+        {
+            Rectangulo_Dialog.Visibility = Visibility.Visible;
+            Boton_Dialog6_1.Visibility = Visibility.Visible;
+            Boton_Dialog6_2.Visibility = Visibility.Visible;
+        }
+
+        private void Boton_Dialog6_1_Click(object sender, RoutedEventArgs e)
+        {
+            fallos++;
+            acto = 500;
+            video.Play();
+            if (fallos % 2 == 0)
+                selector_de_video(51);
+            if (fallos % 2 != 0)
+                selector_de_video(52);
+            Rectangulo_Dialog.Visibility = Visibility.Collapsed;
+            Boton_Dialog6_1.Visibility = Visibility.Collapsed;
+            Boton_Dialog6_2.Visibility = Visibility.Collapsed;
+        }
+
+        private void Boton_Dialog6_2_Click(object sender, RoutedEventArgs e)
+        {
+            aciertos++;
+            acto = 6;
+            video.Play();
+            selector_de_video(6);
+            Rectangulo_Dialog.Visibility = Visibility.Collapsed;
+            Boton_Dialog6_1.Visibility = Visibility.Collapsed;
+            Boton_Dialog6_2.Visibility = Visibility.Collapsed;
+        }
+
+        private void Boton_Reintentar6_Click(object sender, RoutedEventArgs e)
+        {
+            acto = 5;
+            Boton_Reintentar6.Visibility = Visibility.Collapsed;
+            video.Play();
+            selector_de_video(5);
+        }
+
+
+
+        /////////////////////////////////////////////////////////////////////////////////////////    TAREA 6
+        /// <summary>
+        /// Metodos relacionados con el acto 6
+        /// </summary>
+        public void tarea6()
+        {
+
+        }
+
 
 
         /////////////////////////////////////////////////////////////////////////////////////////    METODOS AUXILIARES
@@ -203,6 +351,21 @@ namespace VideoInteractivo
                 case 3:
                     pathAux = path + "/Assets/Videos/minecraft_3.mp4";
                     break;
+                case 4:
+                    pathAux = path + "/Assets/Videos/minecraft_4.mp4";
+                    break;
+                case 5:
+                    pathAux = path + "/Assets/Videos/minecraft_5.mp4";
+                    break;
+                case 51:
+                    pathAux = path + "/Assets/Videos/minecraft_6muerteA.mp4";
+                    break;
+                case 52:
+                    pathAux = path + "/Assets/Videos/minecraft_6muerteB.mp4";
+                    break;
+                case 6:
+                    pathAux = path + "/Assets/Videos/minecraft_6vivo.mp4";
+                    break;
                 default:
                     // code block
                     break;
@@ -210,6 +373,25 @@ namespace VideoInteractivo
 
             video.Source = new System.Uri(pathAux.ToString());
         }
+
+        private void botonEnlace_Click(object sender, RoutedEventArgs e)
+        {
+
+            string enlace = "";
+            switch (acto)
+            {
+                case 3:
+                    // Create a Uri object from a URI string 
+                    enlace = @"https://minecraft.fandom.com/wiki/Brewing";
+                    break;
+                default:
+                    // code block
+                    break;
+            }
+            var uri = new Uri(enlace);
+            abrirEnlace(uri);
+        }
+
         async void abrirEnlace(Uri uri)
         {
             // Launch the URI
@@ -225,21 +407,6 @@ namespace VideoInteractivo
             }
         }
 
-        private void botonEnlace_Click(object sender, RoutedEventArgs e)
-        {
-            string enlace = "";
-            switch (acto)
-            {
-                case 3:
-                    // Create a Uri object from a URI string 
-                    enlace = @"https://minecraft.fandom.com/wiki/Brewing";
-                    break;
-                default:
-                    // code block
-                    break;
-            }
-            var uri = new Uri(enlace);
-            abrirEnlace(uri);
-        }
+
     }
 }
