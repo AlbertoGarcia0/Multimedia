@@ -4,4 +4,14 @@
     <DeviceId>30f105c9-681e-420b-a277-7c086ead8a4e</DeviceId>
     <UseEmulator>true</UseEmulator>
   </PropertyGroup>
+  <PropertyGroup>
+    <Source>C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Videos\icon.png</Source>
+    <SmallTileSource>C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Videos\icon.png</SmallTileSource>
+    <MediumTileSource>C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Videos\icon.png</MediumTileSource>
+    <WideTileSource>C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Videos\icon.png</WideTileSource>
+    <LargeTileSource>C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Videos\icon.png</LargeTileSource>
+    <AppIconSource>C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Videos\icon.png</AppIconSource>
+    <SplashScreenSource>C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Videos\icon.png</SplashScreenSource>
+    <PackageLogoSource>C:\Users\34627\source\repos\AlbertoGarcia0\Multimedia\VideoInteractivo\Assets\Videos\icon.png</PackageLogoSource>
+  </PropertyGroup>
 </Project>

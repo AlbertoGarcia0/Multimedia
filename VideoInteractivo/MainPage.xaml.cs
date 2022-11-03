@@ -14,6 +14,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using System.Threading.Tasks;
+using System.Diagnostics;
 
 // La plantilla de elemento Página en blanco está documentada en https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0xc0a
 
@@ -320,9 +321,32 @@ namespace VideoInteractivo
         /// </summary>
         public void tarea6()
         {
-
+            Rectangulo_Dialog.Visibility = Visibility.Visible;
+            Text_Dialog7.Visibility = Visibility.Visible;
+            Text_Dialog7_Aciertos.Visibility = Visibility.Visible;
+            Text_Dialog7_AciertosCantidad.Visibility = Visibility.Visible;
+            Text_Dialog7_AciertosCantidad.Text = aciertos.ToString();
+            Text_Dialog7_Fallos.Visibility = Visibility.Visible;
+            Text_Dialog7_FallosCantidad.Visibility = Visibility.Visible;
+            Text_Dialog7_FallosCantidad.Text = fallos.ToString();
+            Boton_Reiniciar.Visibility = Visibility.Visible;
         }
 
+        private void Boton_Reiniciar_Click(object sender, RoutedEventArgs e)
+        {
+            Rectangulo_Dialog.Visibility = Visibility.Collapsed;
+            Text_Dialog7.Visibility = Visibility.Collapsed;
+            Text_Dialog7_Aciertos.Visibility = Visibility.Collapsed;
+            Text_Dialog7_AciertosCantidad.Visibility = Visibility.Collapsed;
+            Text_Dialog7_Fallos.Visibility = Visibility.Collapsed;
+            Text_Dialog7_FallosCantidad.Visibility = Visibility.Collapsed;
+            Boton_Reiniciar.Visibility = Visibility.Collapsed;
+            acto = 1;
+            fallos = 0;
+            aciertos = 0;
+            video.Play();
+            selector_de_video(0);
+        }
 
 
         /////////////////////////////////////////////////////////////////////////////////////////    METODOS AUXILIARES
@@ -406,7 +430,6 @@ namespace VideoInteractivo
                 // URI launch failed
             }
         }
-
 
     }
 }
